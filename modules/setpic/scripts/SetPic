@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Get the executable's absolute path
+DIRNAME=`pwd`
+
+. set_puregev_env
+sh set_socket_buffer_size.sh
+
+SETPIC_ROOT=$DIRNAME
+
+
+$SETPIC_ROOT/setpic.bin

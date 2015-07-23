@@ -1,0 +1,2 @@
+g++ -o vcamera.so -shared -fpic -fPIC -g ./src/vcamera.cpp -I./../camera/include -I./include -I./../setpic/include -L/usr/local/lib -L/usr/lib -L/lib /usr/lib/i386-linux-gnu/libboost_filesystem.a /usr/lib/i386-linux-gnu/libboost_system.a
+#/usr/local/lib/boost_system.a /usr/local/lib/boost_filesystem.a
